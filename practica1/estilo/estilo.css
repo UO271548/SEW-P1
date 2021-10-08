@@ -1,8 +1,21 @@
-/*Especificidad: 001*/
-body {
+  /*Especificidad: 001*/
+  body {
 
   }
-/*Especificidad: 001*/
-h1 {
-   
+  /*Especificidad: 001*/
+  h1 {
+   color:green;
   }
+
+  /*Especificidad: 001*/
+  img {
+    width: 100%; /*Problema que se muestre más grande que el tamaño real, se pixelará*/
+    height: auto;
+  }
+
+  /*Especificidad: 001*/
+  video{
+    max-width: 100%;
+    height: auto;
+  }
+
