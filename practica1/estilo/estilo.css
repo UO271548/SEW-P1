@@ -1,27 +1,41 @@
   /*Especificidad: 001*/
   body {
-    /*
     font-family: Arial, sans-serif;
     color:black;
     background-color: white;
-    */
+    
   }
-  /*
+
+  /*Especificidad: 001*/
   h1 {
     color:white;
     background-color:lightslategrey;
   }
-  
+
+  /*Especificidad: 011*/
   h2:first-of-type{
     color:white;
     background-color:lightsalmon;
   }
 
-  h2:nth-last-of-type(2){
+  /*Especificidad: 011*/
+  h2:nth-of-type(2){
+    color:white;
+    background-color:green;
+  }
+  
+   /*Especificidad: 011*/
+   h2:nth-of-type(3){
+    color:white;
+    background-color:red;
+  }
+
+   /*Especificidad: 011*/
+   h2:last-of-type{
     color:white;
     background-color:lightseagreen;
   }
-  */
+
   /*Especificidad: 001*/
   img {
     width: 30%; /*Problema que se muestre más grande que el tamaño real, se pixelará*/
