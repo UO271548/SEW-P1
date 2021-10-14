@@ -29,7 +29,7 @@
   /*Especificidad: 011*/
   h2:nth-of-type(2){
     color:white;
-    background-color:lightslategrey;
+    background-color:#4D5966;
     text-transform: uppercase;
     padding: 1em;
     text-align: center;
@@ -39,7 +39,7 @@
    /*Especificidad: 011*/
   h2:nth-of-type(3){
     color:white;
-    background-color:gray;
+    background-color:#595959;
     text-transform: uppercase;
     padding: 1em;
     text-align: center;
@@ -49,7 +49,7 @@
    /*Especificidad: 011*/
   h2:last-of-type{
     color:white;
-    background-color:lightslategrey;
+    background-color:#4D5966;
     text-transform: uppercase;
     padding: 1em;
     text-align: center;
@@ -59,7 +59,7 @@
   /*Especificidad: 011*/
   h2:first-of-type{
     color:white;
-    background-color:gray;
+    background-color:#595959;
     text-transform: uppercase;
     padding: 1em;
     text-align: center;
@@ -69,7 +69,7 @@
   /*Especificidad: 001*/
   th{
     color: white;
-    background-color: lightslategrey;
+    background-color: #4D5966;
     padding: 1em;
     text-align: center;
     font-size: 1em;
@@ -78,7 +78,7 @@
   /*Especificidad: 011*/
   tr:first-of-type{
     color: white;
-    background-color: lightslategrey;
+    background-color: #4D5966;
     font-weight: bold;
   }
 
@@ -89,7 +89,7 @@
 
   caption{
     color: white;
-    background-color: lightslategrey;
+    background-color: #4D5966;
     padding: 1em;
     text-align: center;
     font-size: 1em;
