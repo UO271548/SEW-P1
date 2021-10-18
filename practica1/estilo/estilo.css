@@ -123,9 +123,12 @@
   /*Especificidad: 001*/
   main{
     display: grid;
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
     align-items: center;
     justify-content: center;
-    grid-template-columns: 1100px;
+    
   }
 
   /*Especificidad: 001*/
@@ -159,7 +162,7 @@
 
   /*Especificidad: 001*/
   img {
-    width: 30%;
+    width: 40%;
     height: auto;
   }
 
